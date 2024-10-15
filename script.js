@@ -13,13 +13,14 @@ console.log("Hello World");
 /*Create variables and use them 
 
 Create three variables: one to store your name, one for your age, and one for your favorite color.  
-
 Then, use console.log() to print a sentence that includes all three variables.*/
 
 const name = "Carmelo";
 let age = 39;
 let favoriteColor = "Blue";
-console.log("Hi my name is "+ name + ", i am " + age + " years old, and my favorite color is " + favoriteColor);
+
+console.log(`Hi, my name is ${name}, I am ${age} years old, and my favorite color is ${favoriteColor}.`);
+
 
 
 
